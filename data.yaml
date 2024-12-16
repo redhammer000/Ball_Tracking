@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['ball', 'stump' ,'batsman' ]
+
+roboflow:
+  workspace: cricket-ball-tracking-dataset
+  project: cricket-dataset-z2wkt
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cricket-ball-tracking-dataset/cricket-dataset-z2wkt/dataset/4
